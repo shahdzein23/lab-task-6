@@ -20,7 +20,7 @@ jobs:
 
       - name: Run tests
         run: |
-          python -m unittest discover -s . -p "Cal.py"
+          python -m unittest discover -s . -p "Calc.py"
           
   deploy:
     needs: test
